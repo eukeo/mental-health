@@ -1,0 +1,13 @@
+#home-page-container {
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+#left-section {
+    width: 40%;
+    padding-top: 1%;
+}
+
+#left-section > img {
+    width: 100%;   
+}

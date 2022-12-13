@@ -11,7 +11,7 @@ export default function QuotePage() {
         setQuote(response.data.author)
         console.log(response)
     })
-   }    
+   };
     return (
     <div>
         <h1>Get a quote!</h1>
@@ -19,4 +19,4 @@ export default function QuotePage() {
         {quote}
     </div>
   );
-}
+};

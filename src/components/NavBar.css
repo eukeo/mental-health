@@ -1,0 +1,14 @@
+nav {
+    margin-top: 1.5%;
+    margin-left: 1%;
+    margin-right: 1%;
+    position: sticky;
+    background-color: rgb(109, 109, 109);
+    padding: 15px;
+}
+
+nav > ul > a {
+    color: white;
+    text-decoration: none;
+    font-style: bold;
+}
