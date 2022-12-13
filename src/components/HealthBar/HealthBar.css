@@ -1,0 +1,100 @@
+#health-bar-container {
+    color: white;
+    background-color: #c75a5a;
+    position: relative;
+    width: 20%;
+    padding: 10px 29px 25px 21px;
+    border-radius: 7px;
+    margin-top: 25px;
+}
+
+#health-bar-container > h1 {
+    text-align: center;
+    background-color: white;
+    color:#c75a5a;
+    font-weight: 400;
+    border-radius: 15px;
+    width: 100%;
+    padding: 5px;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+#case-box {
+    width: 100%;
+    margin: 25px 0;
+}
+
+#case-box > title {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+}
+
+#case-bar {
+    height: 8px;
+    width: 100%;
+    border-radius: 6px;
+    margin-top: 6px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+#case-bar #case-per {
+    position: relative;
+    display: block;
+    height: 100%;
+    width: 95%;
+    border-radius: 6px;
+    background-color: #c75a5a;
+    animation: progress 0.4s ease-in-out forwards;
+    opacity: 0;
+}
+
+#case-per-anxiety {
+    width: 31%;
+    animation-delay: 0.1s;
+}
+
+#case-per-depression {
+    width: 10%;
+    animation-delay: 0.2s;
+}
+
+#case-per-bd {
+    width: 4.4%;
+    animation-delay: 0.3s;
+}
+
+#case-per-pd {
+    width: 3%;
+    animation-delay: 0.4s;
+}
+
+
+
+
+@keyframes progress {
+    0% {
+        width: 0;
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+#tooltip {
+    position: absolute;
+    right: 25px;
+    font-size: 9px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    padding: 2px 6px;
+    border-radius: 3px;
+    background-color: #c75a5a;
+    z-index: 1;
+}
+
+

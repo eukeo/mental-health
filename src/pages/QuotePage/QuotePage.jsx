@@ -1,6 +1,9 @@
-import './QuotePage.css'
-import Axios from 'axios'
+import './QuotePage.css';
+import Axios from 'axios';
+import Aos from 'aos';
+import "aos/dist/aos.css";
 import { useState } from 'react'
+import { useEffect } from 'react';
 
 export default function QuotePage() {
 
@@ -14,12 +17,17 @@ export default function QuotePage() {
     })
    };
 
+   useEffect(() => {
+    Aos.init({duration:6000})
+   }, []);
+
     return (
     <div id="quote-page-container">
-        <h1>Get a quote!</h1>
-        <button onClick={getQuote}>Get Quote</button>
-        <p>{quote}</p>
-        <p>{author}</p>
+        <section id="quote-container" data-aos="fade-up">
+            <p>"{quote}"</p>
+            <p>{author}</p>
+            <a id="get-quote-btn" onClick={getQuote}>Generate Quote!</a>
+        </section>
     </div>
   );
 };
