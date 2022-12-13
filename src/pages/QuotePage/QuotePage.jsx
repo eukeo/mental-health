@@ -18,7 +18,7 @@ export default function QuotePage() {
    };
 
    useEffect(() => {
-    Aos.init({duration:6000})
+    Aos.init({duration:1000})
    }, []);
 
     return (
