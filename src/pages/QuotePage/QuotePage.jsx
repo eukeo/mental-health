@@ -5,18 +5,21 @@ import { useState } from 'react'
 export default function QuotePage() {
 
     const [quote, setQuote] = useState("");
+    const [author, setAuthor] = useState("");
 
    const getQuote = () => {
-    Axios.get("https://type.fit/api/quotes").then((response) => {
-        setQuote(response.data.author)
-        console.log(response)
+    Axios.get("https://favqs.com/api/qotd").then((response) => {
+        setQuote(response.data.quote.body)
+        setAuthor(response.data.quote.author)
     })
    };
+
     return (
-    <div>
+    <div id="quote-page-container">
         <h1>Get a quote!</h1>
         <button onClick={getQuote}>Get Quote</button>
-        {quote}
+        <p>{quote}</p>
+        <p>{author}</p>
     </div>
   );
 };

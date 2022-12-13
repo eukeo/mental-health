@@ -1,5 +1,9 @@
+import './HelpPage.css'
+
 export default function HelpPage() {
     return (
-        <h1>Help Page</h1>
+        <div id="help-page-container">
+            <h1>Help Page</h1>
+        </div>
     )
 }
