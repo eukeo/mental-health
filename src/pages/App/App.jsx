@@ -1,22 +1,19 @@
 import './App.css';
-import Axios from 'axios'
-import { useState } from 'react'
+import { Routes, Route } from 'react-router-dom';
+import NavBar from "../../components/NavBar"
+import HomePage from "../HomePage/HomePage"
+import QuotePage from "../QuotePage/QuotePage"
+import HelpPage from "../HelpPage/HelpPage"
 
 export default function App() {
-
-    const [quote, setQuote] = useState("");
-
-   const getQuote = () => {
-    Axios.get("https://type.fit/api/quotes").then((response) => {
-        setQuote(response.data.author + response.data.text)
-        console.log(response)
-    })
-   }
-    
     return (
-    <div>
-        <button onClick={getQuote}>Get Quote</button>
-        {quote}
-    </div>
-  );
+        <>
+            <NavBar />
+            <Routes>
+                <Route path="/" element={<HomePage />} />
+                <Route path="/quotes" element={<QuotePage />} />
+                <Route path="/help" element={<HelpPage />} />
+            </Routes>
+        </>
+    )
 }
