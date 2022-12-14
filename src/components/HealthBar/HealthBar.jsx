@@ -1,43 +1,31 @@
 import './HealthBar.css';
+import { BarChart, Bar, XAxis, YAxis, Tooltip } from 'recharts';
 import { useEffect } from 'react';
 import Aos from 'aos';
 import "aos/dist/aos.css";
 
 export default function HealthBar() {
 
+    const data = [{name: 'Anxiety', Total: 31, pv: 2, amt: 43},
+    { name: 'Depression', Total: 10, pv: 2, amt: 43},
+    { name: 'Bipolar Disorder', Total: 4.4, pv: 2, amt: 43},
+    { name: 'Personality Disorder', Total: 3, pv: 2, amt: 43}];
+
     useEffect(() => {
         Aos.init({duration:1000})
        }, []);
 
     return (
-        <div id="health-bar-container" data-aos="fade-up">
-            <h1>Mental Health Cases</h1>
-
-            <div id="case-box">
-                <span id="title">Anxiety</span>
-                <div id="case-bar"></div>
-                    <span id="case-per-anxiety"></span>
-                        <span id="tooltip">31%</span>
+        <div id="health-page-container">
+            <div id="health-info">
+                <h1>Cases in The United States by %</h1>
+                <BarChart width={600} height={300} data={data} data-aos="fade-up">
+                    <XAxis dataKey="name" stroke="black" />
+                    <YAxis dataKey="amt" stroke="black" />
+                    <Tooltip wrapperStyle={{ width: 155, backgroundColor: '#ccc' }} />
+                    <Bar dataKey="Total" fill="#c75a5a" barSize={70} />
+                </BarChart>
             </div>
-            <div id="case-box">
-                <span id="title">Depression</span>
-                <div id="case-bar"></div>
-                    <span id="case-per-depression"></span>
-                        <span id="tooltip">10%</span>
-            </div>
-            <div id="case-box">
-                <span id="title">Bipolar Disorder</span>
-                <div id="case-bar"></div>
-                    <span id="case-per-bd"></span>
-                        <span id="tooltip">4.4%</span>
-            </div>
-            <div id="case-box">
-                <span id="title">Personality Disorder</span>
-                <div id="case-bar"></div>
-                    <span id="case-per-pd"></span>
-                        <span id="tooltip">3%</span>
-            </div>
-
         </div>
     )
 }
