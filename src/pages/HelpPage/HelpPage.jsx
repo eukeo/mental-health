@@ -41,7 +41,7 @@ export default function HelpPage() {
                 <h4 data-aos="fade-up">9. Find purpose and meaning.</h4>
                     <p data-aos="fade-up">This is different for everyone but finding purpose in your day is a big factor to good mental health. You might try one of the following: Engage in work that makes you feel useful, invest in relationships and spend quality time with people who matter to you, volunteer, which can help enrich your life and make you happier,care for others, which can be as rewarding and meaningful as it is challenging, think of one good deed or gesture to do each day.</p>
                 <h4 data-aos="fade-up">10. Get help if you need it.</h4>
-                <p data-aos="fade-up">If you or a loved one needs support, there are many programs and resources that are available to you.</p>
+                <h4 data-aos="fade-up">If you or a loved one needs support, there are many programs and resources that are available to you.</h4>
             </section>
         </div>
     )

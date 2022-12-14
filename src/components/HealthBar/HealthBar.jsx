@@ -17,13 +17,13 @@ export default function HealthBar() {
 
     return (
         <div id="health-page-container">
-            <div id="health-info">
+            <div id="health-info" data-aos="fade-left">
                 <h1>Cases in The United States by %</h1>
                 <BarChart width={600} height={300} data={data} data-aos="fade-up">
                     <XAxis dataKey="name" stroke="black" />
                     <YAxis dataKey="amt" stroke="black" />
                     <Tooltip wrapperStyle={{ width: 155, backgroundColor: '#ccc' }} />
-                    <Bar dataKey="Total" fill="#c75a5a" barSize={70} />
+                    <Bar dataKey="Total" fill="#5b3f97" barSize={70} />
                 </BarChart>
             </div>
         </div>

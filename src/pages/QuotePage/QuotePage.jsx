@@ -24,10 +24,12 @@ export default function QuotePage() {
     return (
     <div id="quote-page-container">
         <section id="quote-container" data-aos="fade-up">
-            <p>{quote}</p>
-            <p>{author}</p>
-            <a id="get-quote-btn" onClick={getQuote}>Generate Quote!</a>
+            <div id="quote-mini-container">
+                <p>{quote}</p>
+                <p>{author}</p>
+            </div>
         </section>
+        <a id="get-quote-btn" onClick={getQuote}>Generate Quote!</a>
     </div>
   );
 };

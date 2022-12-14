@@ -4,9 +4,9 @@
 }
 
 #growing-photo {
-    width: 50%;
+    width: 36%;
     position: absolute;
-    right: 15px;
+    right: 115px;
 }
 
 #tips-title {
@@ -19,7 +19,7 @@
     border-radius: 7px;
     width: 40%;
     padding-bottom: 3.4%;
-    background-color: #c75a5a;
+    background-color: #9f92c8;
     color: white;
 }
 
@@ -29,7 +29,7 @@
 }
 
 #health-tips > h4 {
-    padding: 2px 25px;
+    padding: 12px 25px;
 }
 
 #health-tips > p {
@@ -42,9 +42,9 @@
     font-size: 18px;
     text-align: center;
     color: white;
-    background-color: #c75a5a;
+    background-color: #7a68af;
     border-radius: 15px;
-    margin-top: 34%;
+    margin-top: 25%;
     margin-bottom: 10%;
     width: 40%;
     padding: 6px 16px 2px 16px;
