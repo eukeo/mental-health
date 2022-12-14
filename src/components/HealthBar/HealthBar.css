@@ -8,6 +8,10 @@
     margin-top: 25px;
 }
 
+#tips-title {
+    text-decoration: underline;
+}
+
 #health-bar-container > h1 {
     text-align: center;
     background-color: white;

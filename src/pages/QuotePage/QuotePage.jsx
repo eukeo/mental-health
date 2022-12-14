@@ -24,7 +24,7 @@ export default function QuotePage() {
     return (
     <div id="quote-page-container">
         <section id="quote-container" data-aos="fade-up">
-            <p>"{quote}"</p>
+            <p>{quote}</p>
             <p>{author}</p>
             <a id="get-quote-btn" onClick={getQuote}>Generate Quote!</a>
         </section>
