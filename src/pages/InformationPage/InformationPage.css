@@ -2,3 +2,29 @@
     margin-left: 1%;
     margin-right: 1%;
 }
+
+#information-page-container > h1 {
+    text-align: center;
+}
+
+#box-container {
+    flex-wrap: wrap;
+    display:flex;
+    justify-content: center;
+    background-position: center;
+}
+
+#health-info-box {
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    width: 15%;
+    margin: 2%;
+    background-color: white;
+}
+
+#table-container {
+    justify-content: center;
+    text-align: center;
+    width: 30%;
+}

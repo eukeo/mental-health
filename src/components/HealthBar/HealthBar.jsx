@@ -5,18 +5,18 @@ import "aos/dist/aos.css";
 
 export default function HealthBar() {
 
-    const data = [{name: 'Anxiety', Total: 41, pv: 2, amt: 43},
-    { name: 'Stress', Total: 39, pv: 2, amt: 43},
-    { name: 'Depression', Total: 30, pv: 2, amt: 43},
-    { name: 'Loneliness/Social Isolation', Total: 28, pv: 2, amt: 43},
-    { name: 'Mood Swings', Total: 26, pv: 2, amt: 43},
-    { name: 'Phases of Sadness', Total: 23, pv: 2, amt: 43},
-    { name: 'Panic Attacks', Total: 20, pv: 2, amt: 43},
-    { name: 'Struggles with Self-Esteem', Total: 20, pv: 2, amt: 43},
-    { name: 'Phases of Lethargy', Total: 14, pv: 2, amt: 43},
-    { name: 'Phobias', Total: 8, pv: 2, amt: 43},
+//     const data = [{name: 'Anxiety', Total: 41, pv: 2, amt: 43},
+//     { name: 'Stress', Total: 39, pv: 2, amt: 43},
+//     { name: 'Depression', Total: 30, pv: 2, amt: 43},
+//     { name: 'Loneliness/Social Isolation', Total: 28, pv: 2, amt: 43},
+//     { name: 'Mood Swings', Total: 26, pv: 2, amt: 43},
+//     { name: 'Phases of Sadness', Total: 23, pv: 2, amt: 43},
+//     { name: 'Panic Attacks', Total: 20, pv: 2, amt: 43},
+//     { name: 'Struggles with Self-Esteem', Total: 20, pv: 2, amt: 43},
+//     { name: 'Phases of Lethargy', Total: 14, pv: 2, amt: 43},
+//     { name: 'Phobias', Total: 8, pv: 2, amt: 43},
 
-];
+// ];
 
     useEffect(() => {
         Aos.init({duration:1000})

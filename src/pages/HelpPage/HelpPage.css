@@ -62,3 +62,10 @@
 #other-resources > h1 {
     text-align: center;
 }
+
+#reach-out {
+    width: 36%;
+    position: absolute;
+    right: 115px;
+    margin-top: 80%;
+}
