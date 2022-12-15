@@ -17,6 +17,23 @@ export default function HelpPage() {
             <div id="seek-help-container" data-aos="fade-up">
                 <h4>If you or someone you know is struggling or in crisis, help is available. Call or text 988 or chat 988lifeline.org . Text MHA to 741741 to connect with a trained Crisis Counselor from Crisis Text Line . Call 911 or go to the nearest emergency room.</h4>
             </div>
+            <div id="other-resources">
+                <h1>Other Resources for Help</h1>
+                <p>
+                    <h4>SAMHSA’s National Helpline</h4>
+                    1-800-662-HELP (4357) (also known as the Treatment Referral Routing Service), or TTY: 1-800-487-4889 is a confidential, free, 24-hour-a-day, 365-day-a-year, information service, in English and Spanish, for individuals and family members facing mental and/or substance use disorders. This service provides referrals to local treatment facilities, support groups, and community-based organizations.
+                </p>
+                <hr></hr>
+                <p>
+                    <h4>Suicide Prevention Crisis Line</h4>
+                    Didi Hirsch’s Suicide Prevention Crisis Line is a leading member of the National Suicide Prevention Lifeline at 988 (the previous number, 1-800-273-8255, will continue to function and will route calls to 988 indefinitely). We are currently the only center in the national network with English- and Spanish-speaking crisis counselors 24/7. We also have Korean-speaking counselors during peak evening hours (4:30pm to 12:30am PT, 7 days per week) at 877-727-4747.
+                </p>
+                <hr></hr>
+                <p>
+                    <h4>CrisisText and Deaf and Hard of Hearing Support</h4>
+                    People who are deaf or hard of hearing and who need support in a crisis can text for help by texting the word “HEARME” to 839863. The service is available 24/7.
+                </p>
+            </div>
             <section id="health-tips" data-aos="fade-up">
                 <h1 id="tips-title" data-aos="fade-up">Tips for Better Mental Health</h1>
                 <h5 data-aos="fade-up">Provided by BC Mental Health & Substance Use Services</h5>
@@ -41,7 +58,7 @@ export default function HelpPage() {
                 <h4 data-aos="fade-up">9. Find purpose and meaning.</h4>
                     <p data-aos="fade-up">This is different for everyone but finding purpose in your day is a big factor to good mental health. You might try one of the following: Engage in work that makes you feel useful, invest in relationships and spend quality time with people who matter to you, volunteer, which can help enrich your life and make you happier,care for others, which can be as rewarding and meaningful as it is challenging, think of one good deed or gesture to do each day.</p>
                 <h4 data-aos="fade-up">10. Get help if you need it.</h4>
-                <h4 data-aos="fade-up">If you or a loved one needs support, there are many programs and resources that are available to you.</h4>
+                <p data-aos="fade-up">If you or a loved one needs support, there are many programs and resources that are available to you.</p>
             </section>
         </div>
     )

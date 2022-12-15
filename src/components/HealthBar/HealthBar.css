@@ -1,16 +1,12 @@
 #health-page-container {
-    background-image: url("https://manthrana.com/en/wp-content/uploads/2021/04/Mental-Health-Month-Blog-1200x600-1.png");
+    border: 1px solid black;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 
-#health-info {
-    width: 45%;
-    margin-top: 25px;
-    width: 40%;
-    position: absolute;
-    right: 90px;
-    border-radius: 7px;
-}
-
-#health-info > h1 {
+#health-info-box {
+    border: 1px solid black;
+    border-radius: 5px;
     text-align: center;
+    width: 15%;
 }

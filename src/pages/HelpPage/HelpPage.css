@@ -19,8 +19,7 @@
     border-radius: 7px;
     width: 40%;
     padding-bottom: 3.4%;
-    background-color: #9f92c8;
-    color: white;
+    /* background-color: #9f92c8; */
 }
 
 #health-tips > h5 {
@@ -40,12 +39,26 @@
     position: absolute;
     right: 80px;
     font-size: 18px;
-    text-align: center;
-    color: white;
-    background-color: #7a68af;
+    text-align: left;
+    background-color: rgb(255, 255, 255);
+    color: #9f92c8;
+    border: 1px solid #9f92c8;
     border-radius: 15px;
     margin-top: 25%;
     margin-bottom: 10%;
     width: 40%;
     padding: 6px 16px 2px 16px;
+}
+
+#other-resources {
+    position: absolute;
+    right: 80px;
+    width: 40%;
+    margin-top: 35%;
+    text-align: left;
+    padding: 6px 16px 2px 16px;
+}
+
+#other-resources > h1 {
+    text-align: center;
 }
