@@ -15,7 +15,7 @@ export default function HelpPage() {
                 <img src="https://images.squarespace-cdn.com/content/v1/60818be3726c6c6c3f24a841/1622140128102-KWTH9R30PZ4DOZ9UN9KB/Mental+Health.png" id="growing-photo"></img>
             </div>
             <div id="seek-help-container" data-aos="fade-left">
-                <h4>If you or someone you know is struggling or in crisis, help is available. Call or text 988 or chat 988lifeline.org . Text MHA to 741741 to connect with a trained Crisis Counselor from Crisis Text Line . Call 911 or go to the nearest emergency room.</h4>
+                <h4>If you or someone you know is struggling or in crisis, help is available. Call or text 988 or chat 988lifeline.org. Text MHA to 741741 to connect with a trained Crisis Counselor from Crisis Text Line. Call 911 or go to the nearest emergency room.</h4>
             </div>
             <div id="other-resources">
                 <h1>Other Resources for Help</h1>

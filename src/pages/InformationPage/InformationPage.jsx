@@ -104,9 +104,12 @@ export default function InformationPage() {
                     <h5>Phobias</h5>
                 </div>
             </div>
+            <div id="workdays-photo" data-aos="fade-right">
+                <img src="https://www.newscenter1.tv/content/uploads/2022/07/l/j/screenshot-2022-07-13-130302.png"></img>
+            </div>
             <div id="table-container">
                 <h1>Mental Health by State</h1>
-                <table data-aos="fade-up">
+                <table data-aos="fade-left">
                     <tr>
                         <th>Rank</th>
                         <th>State</th>
