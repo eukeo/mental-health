@@ -65,7 +65,7 @@ export default function InformationPage() {
 
     return (
         <div id="information-page-container">
-            <h1>Cases in the United States</h1>
+            <h1 data-aos="fade-in">Cases in the United States</h1>
             <div id="box-container" data-aos="fade-in">
                 <div id="health-info-box" data-aos="fade-up">
                     <h1>41%</h1>
@@ -104,11 +104,29 @@ export default function InformationPage() {
                     <h5>Phobias</h5>
                 </div>
             </div>
-            <div id="workdays-photo" data-aos="fade-right">
-                <img src="https://www.newscenter1.tv/content/uploads/2022/07/l/j/screenshot-2022-07-13-130302.png"></img>
+            <div id="definitions">
+                <h1 data-aos="fade-in">Signs and Symptoms</h1>
+                <h4 data-aos="fade-up">What is Anxiety?</h4>
+                    <p data-aos="fade-up">Intense, excessive, and persistent worry and fear about everyday situations. Fast heart rate, rapid breathing, sweating, and feeling tired may occur.</p>
+                <h4 data-aos="fade-up">What is depression?</h4>
+                    <p data-aos="fade-up">A group of conditions associated with the elevation or lowering of a person's mood, such as depression or bipolar disorder.</p>
+                    <h4 data-aos="fade-up">What is Loneliness/Social Isolation?</h4>
+                        <p data-aos="fade-up">Loneliness is the feeling of being alone, regardless of the amount of social contact. Social isolation is a lack of social connections. Social isolation can lead to loneliness in some people, while others can feel lonely without being socially isolated.</p>
+                    <h4 data-aos="fade-up">What are Mood Swings?</h4>
+                        <p data-aos="fade-up">An abrupt change in mood or emotional state.</p>
+                    <h4 data-aos="fade-up">What are Phases of Sadness?</h4>
+                        <p data-aos="fade-up">Phases of Sadness can be compared to the Five Stages of Grief: Denial, Anger, Bargaining, Depression and Acceptance.</p>
+                    <h4 data-aos="fade-up">What are Panic Attacks?</h4>
+                        <p data-aos="fade-up">Sudden episode of intense fear or anxiety and physical symptoms, based on a perceived threat rather than imminent danger.</p>
+                    <h4 data-aos="fade-up">What are Struggles with Self-Esteem?</h4>
+                        <p data-aos="fade-up">Low self-esteem is when someone lacks confidence about who they are and what they can do. They often feel incompetent, unloved, or inadequate. People who struggle with low self-esteem are consistently afraid about making mistakes or letting other people down.</p>
+                    <h4 data-aos="fade-up">What are Phases of Lethargy?</h4>
+                        <p data-aos="fade-up">Lethargy can refer to feelings of fatigue as well as a lack of mental or physical motivation.</p>
+                    <h4 data-aos="fade-up">What are Phobias?</h4>
+                        <p data-aos="fade-up">A phobia is an anxiety disorder defined by a persistent and excessive fear of an object or situation. Phobias typically result in a rapid onset of fear and are usually present for more than six months.</p>
             </div>
             <div id="table-container">
-                <h1>Mental Health by State</h1>
+                <h1 data-aos="fade-in">Mental Health by State</h1>
                 <table data-aos="fade-left">
                     <tr>
                         <th>Rank</th>

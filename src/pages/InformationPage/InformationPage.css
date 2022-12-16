@@ -24,9 +24,27 @@
     background-color: rgb(126, 223, 212);
 }
 
-#workdays-photo {
-    width: 100%;
-    margin-top: 5%;
+#definitions {
+    width: 50%;
+    margin-top: 1%;
+    margin-bottom: 5%;
+    border: 1px solid black;
+    background-color: #e6e6e6;
+    border-radius: 5px;
+}
+
+#definitions > h4 {
+    margin-top: 4%;
+    padding-left: 45px;
+}
+
+#definitions > h1 {
+    text-align: center;
+}
+
+#definitions > p {
+    width: 85%;
+    padding-left: 45px;
 }
 
 #table-container {
@@ -34,7 +52,7 @@
     text-align: center;
     width: 30%;
     right: 35px;
-    top: 580px;
+    top: 560px;
     margin-right: 2%;
 }
 

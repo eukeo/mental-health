@@ -18,7 +18,7 @@ export default function HelpPage() {
                 <h4>If you or someone you know is struggling or in crisis, help is available. Call or text 988 or chat 988lifeline.org. Text MHA to 741741 to connect with a trained Crisis Counselor from Crisis Text Line. Call 911 or go to the nearest emergency room.</h4>
             </div>
             <div id="other-resources">
-                <h1>Other Resources for Help</h1>
+                <h1 data-aos="fade-in">Other Resources for Help</h1>
                 <p data-aos="fade-left">
                     <h4>SAMHSA’s National Helpline</h4>
                     1-800-662-HELP (4357) (also known as the Treatment Referral Routing Service), or TTY: 1-800-487-4889 is a confidential, free, 24-hour-a-day, 365-day-a-year, information service, in English and Spanish, for individuals and family members facing mental and/or substance use disorders. This service provides referrals to local treatment facilities, support groups, and community-based organizations. 
@@ -38,10 +38,10 @@ export default function HelpPage() {
                 <a href="https://www.samhsa.gov/find-help/national-helpline" target="_blank" data-aos="fade-up">Read More</a>
                 <hr></hr>
             </div>
-            <img src="https://www.somethinggoodtoday.org/wp-content/uploads/2019/10/img_1342-1024x1024.png" id="reach-out" data-aos="fade-left"></img>
-            <section id="health-tips" data-aos="fade-up">
-                <h1 id="tips-title" data-aos="fade-up">Tips for Better Mental Health</h1>
-                <h5 data-aos="fade-up">Provided by BC Mental Health & Substance Use Services</h5>
+            <img src="https://www.somethinggoodtoday.org/wp-content/uploads/2019/10/img_1342-1024x1024.png" id="reach-out" data-aos="fade-in"></img>
+            <section id="health-tips" >
+                <h1 id="tips-title" data-aos="fade-in">Tips for Better Mental Health</h1>
+                <h5 data-aos="fade-in">Provided by BC Mental Health & Substance Use Services</h5>
                 <h4 data-aos="fade-up">1. Make social connection a priority.</h4>
                     <p data-aos="fade-up">Phone calls and social networks have their place, but few things can beat the stress-busting, mood-boosting power of quality face-to-face time with other people, especially those you love and people who energize you.</p>
                 <h4 data-aos="fade-up">2. Stay active.</h4>
