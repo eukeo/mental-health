@@ -12,19 +12,36 @@
     display:flex;
     justify-content: center;
     background-position: center;
+    background-image: url("https://img.freepik.com/free-vector/gradient-world-mental-health-day-background_23-2149604961.jpg?w=2000");
+    backdrop-filter: opacity(25%);
 }
 
 #health-info-box {
     border: 1px solid black;
     border-radius: 5px;
     text-align: center;
-    width: 15%;
+    width: 10%;
     margin: 2%;
     background-color: white;
 }
 
 #table-container {
-    justify-content: center;
+    position: absolute;
     text-align: center;
     width: 30%;
+    right: 45px;
+}
+
+th {
+    width: 224px;
+    border: 1px solid black;
+    background-color: #e6e6e6;
+}
+
+td {
+    padding: 2px;
+}
+
+tr:nth-child(even) {
+    background-color: #b9b1d4;
 }

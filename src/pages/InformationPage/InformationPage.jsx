@@ -57,7 +57,7 @@ export default function InformationPage() {
         {rank: 49, state: "Alaska"},
         {rank: 50, state: "Vermont"},
         {rank: 51, state: "Oregon"},
-    ]
+    ];
     
     useEffect(() => {
         Aos.init({duration:1000})
@@ -66,47 +66,47 @@ export default function InformationPage() {
     return (
         <div id="information-page-container">
             <h1>Cases in the United States</h1>
-            <div id="box-container" data-aos="fade-left">
-                <div id="health-info-box">
+            <div id="box-container" data-aos="fade-in">
+                <div id="health-info-box" data-aos="fade-up">
                     <h1>41%</h1>
                     <h5>Anxiety</h5>
                 </div>
-                <div id="health-info-box">
+                <div id="health-info-box" data-aos="fade-up">
                     <h1>30%</h1>
                     <h5>Depression</h5>
                 </div>
-                <div id="health-info-box">
+                <div id="health-info-box" data-aos="fade-up">
                     <h1>28%</h1>
                     <h5>Loneliness/Social Isolation</h5>
                 </div>
-                <div id="health-info-box">
+                <div id="health-info-box" data-aos="fade-up">
                     <h1>26%</h1>
                     <h5>Mood Swings</h5>
                 </div>
-                <div id="health-info-box">
+                <div id="health-info-box" data-aos="fade-up">
                     <h1>23%</h1>
                     <h5>Phases of Sadness</h5>
                 </div>
-                <div id="health-info-box">
+                <div id="health-info-box" data-aos="fade-up">
                     <h1>20%</h1>
                     <h5>Panic Attacks</h5>
                 </div>
-                <div id="health-info-box">
+                <div id="health-info-box" data-aos="fade-up">
                     <h1>20%</h1>
                     <h5>Struggles with Self-Esteem</h5>
                 </div>
-                <div id="health-info-box">
+                <div id="health-info-box" data-aos="fade-up">
                     <h1>14%</h1>
                     <h5>Phases of Lethargy</h5>
                 </div>
-                <div id="health-info-box">
+                <div id="health-info-box" data-aos="fade-up">
                     <h1>8%</h1>
                     <h5>Phobias</h5>
                 </div>
             </div>
             <div id="table-container">
-                <h1>Mental Health Issues by State</h1>
-                <table data-aos="fade-left">
+                <h1>Mental Health by State</h1>
+                <table data-aos="fade-up">
                     <tr>
                         <th>Rank</th>
                         <th>State</th>
