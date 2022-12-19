@@ -1,15 +1,25 @@
 #home-page-container {
     margin-left: 1%;
     margin-right: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    text-align: left;
+}
+
+#banner {
+    margin-top: 2%;
+    width: 50%;
 }
 
 #banner > img {
-    width: 40%;
-    padding-top: 1%;
-    margin: auto;
+    align-items: center;
+    width: 100%;
 }
 
 #importance {
     position: absolute;
-    width: 30%;
+    right: 115px;
+    width: 40%;
+    margin-top: 4%;
 }
