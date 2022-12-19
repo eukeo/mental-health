@@ -67,42 +67,45 @@ export default function InformationPage() {
         <div id="information-page-container">
             <h1 data-aos="fade-in">Cases in the United States</h1>
             <div id="box-container" data-aos="fade-in">
-                <div id="health-info-box" data-aos="fade-up">
+                <div id="health-info-box" data-aos="fade-down" data-aos-duration="1000">
                     <h1>41%</h1>
                     <h5>Anxiety</h5>
                 </div>
-                <div id="health-info-box" data-aos="fade-up">
+                <div id="health-info-box" data-aos="fade-down" data-aos-duration="1250">
                     <h1>30%</h1>
                     <h5>Depression</h5>
                 </div>
-                <div id="health-info-box" data-aos="fade-up">
+                <div id="health-info-box" data-aos="fade-down" data-aos-duration="1500">
                     <h1>28%</h1>
                     <h5>Loneliness/Social Isolation</h5>
                 </div>
-                <div id="health-info-box" data-aos="fade-up">
+                <div id="health-info-box" data-aos="fade-down" data-aos-duration="1750">
                     <h1>26%</h1>
                     <h5>Mood Swings</h5>
                 </div>
-                <div id="health-info-box" data-aos="fade-up">
+                <div id="health-info-box" data-aos="fade-down" data-aos-duration="2000">
                     <h1>23%</h1>
                     <h5>Phases of Sadness</h5>
                 </div>
-                <div id="health-info-box" data-aos="fade-up">
+                <div id="health-info-box" data-aos="fade-down" data-aos-duration="2250">
                     <h1>20%</h1>
                     <h5>Panic Attacks</h5>
                 </div>
-                <div id="health-info-box" data-aos="fade-up">
+                <div id="health-info-box" data-aos="fade-down" data-aos-duration="2500">
                     <h1>20%</h1>
                     <h5>Struggles with Self-Esteem</h5>
                 </div>
-                <div id="health-info-box" data-aos="fade-up">
+                <div id="health-info-box" data-aos="fade-down" data-aos-duration="2750">
                     <h1>14%</h1>
                     <h5>Phases of Lethargy</h5>
                 </div>
-                <div id="health-info-box" data-aos="fade-up">
+                <div id="health-info-box" data-aos="fade-down" data-aos-duration="3000">
                     <h1>8%</h1>
                     <h5>Phobias</h5>
                 </div>
+            </div>
+            <div>
+                <img src="https://www.verywellmind.com/thmb/u_YyxyiUz6qeT5AtcsF41O42ngY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/definition-of-mental-illness-4587855-v1-cd7f9f37c61c49099ac8ede282db1e73.png" id="what-is-it" data-aos="fade-up"></img>
             </div>
             <div id="definitions">
                 <h1 data-aos="fade-in">Signs and Symptoms</h1>
@@ -126,7 +129,7 @@ export default function InformationPage() {
                         <p data-aos="fade-up">A phobia is an anxiety disorder defined by a persistent and excessive fear of an object or situation. Phobias typically result in a rapid onset of fear and are usually present for more than six months.</p>
             </div>
             <div id="table-container">
-                <h1 data-aos="fade-in">Mental Health by State</h1>
+                <h1 data-aos="fade-in">Most Affected States</h1>
                 <table data-aos="fade-left">
                     <tr>
                         <th>Rank</th>
@@ -144,4 +147,4 @@ export default function InformationPage() {
             </div>
         </div>
     )
-}
+};

@@ -38,7 +38,7 @@ export default function HelpPage() {
                 <a href="https://www.samhsa.gov/find-help/national-helpline" target="_blank" data-aos="fade-up">Read More</a>
                 <hr></hr>
             </div>
-            <img src="https://www.somethinggoodtoday.org/wp-content/uploads/2019/10/img_1342-1024x1024.png" id="reach-out" data-aos="fade-in"></img>
+            <img src="https://static.wixstatic.com/media/d053fc_4a2bb565604b432fb573afaa4f71c2ed~mv2.png/v1/fill/w_540,h_452,al_c,lg_1,q_85,enc_auto/Self%20Care.png" id="reach-out" data-aos="fade-in"></img>
             <section id="health-tips" >
                 <h1 id="tips-title" data-aos="fade-in">Tips for Better Mental Health</h1>
                 <h5 data-aos="fade-in">Provided by BC Mental Health & Substance Use Services</h5>
