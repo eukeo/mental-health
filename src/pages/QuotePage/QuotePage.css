@@ -3,22 +3,22 @@
     margin-right: 1%;
 }
 
-#quote-container {
-    background-color: #9f92c8;
-    position: relative;
-    width: 20%;
-    padding: 10px 29px 25px 21px;
-    border-radius: 7px;
-    margin-top: 25px;
-    margin-bottom: 25px;
+#content-container {
+    align-items: center;
+    margin-top: 2%;
 }
 
-#quote-mini-container {
-    background-color: white;
-    padding: 10px 5px;
-    width: 100%;
-    margin-top: 3%;
-    height: 50%;
+#content-container > img {
+    margin: auto;
+    width: 35%;
+    
+}
+
+#quote-container {
+   text-align: center;
+   width: 35%;
+   margin: auto;
+   margin-top: 2%;
 }
 
 #get-quote-btn {
@@ -29,7 +29,5 @@
     padding-left: 15px;
     padding-right: 15px;
     border-radius: 20px;
-    align-items: center;
-    margin-top: 25px;
+    margin: auto;
 }
-
