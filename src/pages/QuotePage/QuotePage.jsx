@@ -23,13 +23,30 @@ export default function QuotePage() {
 
     return (
     <div id="quote-page-container">
-        <div id="content-container">
-            <img src="https://www.pcc.edu/climb/wp-content/uploads/sites/4/2020/03/ipnb_web-1-500x250.png"></img>
+        <div id="content-container" data-aos="fade-in">
+            < br/>
+            < br/>
+            < br/>
+            < br/>
+            < br/>
+            < br/>
+            < br/>
+            < br/>
+            < br/>
             <section id="quote-container" data-aos="fade-up">
             <a id="get-quote-btn" onClick={getQuote}>Generate Quote!</a>
                 <p>{quote}</p>
                 <p>{author}</p>
             </section>
+            < br/>
+            < br/>
+            < br/>
+            < br/>
+            < br/>
+            < br/>
+            < br/>
+            < br/>
+            < br/>
         </div>
     </div>
   );

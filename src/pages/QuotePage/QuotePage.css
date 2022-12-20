@@ -6,19 +6,24 @@
 #content-container {
     align-items: center;
     margin-top: 2%;
+    background-image: url("https://afchelps.ca/wp-content/uploads/2020/01/Mental-Health-Homepage-Slider-825x229.png");
+    background-position: center;
+    border: 1px solid rgba(0, 0, 0, 0.088);
+    border-radius: 5px;
 }
 
 #content-container > img {
-    margin: auto;
     width: 35%;
-    
 }
 
 #quote-container {
    text-align: center;
-   width: 35%;
+   width: 45%;
    margin: auto;
    margin-top: 2%;
+   margin-bottom: 3%;
+   border-radius: 100px;
+   max-height: 15px;
 }
 
 #get-quote-btn {
