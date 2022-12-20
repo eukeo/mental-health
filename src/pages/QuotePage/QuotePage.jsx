@@ -48,6 +48,16 @@ export default function QuotePage() {
             < br/>
             < br/>
         </div>
+        <section id="quote-gallery">
+            <img src="https://positive.b-cdn.net/wp-content/uploads/2022/01/John-Campo-2017_1-1.jpg" data-aos="fade-up"></img>
+            <img src="https://positive.b-cdn.net/wp-content/uploads/2022/01/Elliott-Goldner-2016-1.jpg" data-aos="fade-up"></img>
+            <img src="https://positive.b-cdn.net/wp-content/uploads/2022/01/Russ-Harris-2008-1.jpg" data-aos="fade-up"></img>
+            <img src="https://positive.b-cdn.net/wp-content/uploads/2022/01/Suzanne-Collins-2010-1.jpg" data-aos="fade-up"></img>
+            <img src="https://positive.b-cdn.net/wp-content/uploads/2022/01/Nicole-Spector-2020-1.jpg" data-aos="fade-up"></img>
+            <img src="https://positive.b-cdn.net/wp-content/uploads/2022/01/Lauren-Fogel-Mersy-nd-1.jpg" data-aos="fade-up"></img>
+            <img src="https://positive.b-cdn.net/wp-content/uploads/2022/01/Paulo-Coelho-2014-1.jpg" data-aos="fade-up"></img>
+            <img src="https://positive.b-cdn.net/wp-content/uploads/2022/01/John-Campo-2017-1.jpg" data-aos="fade-up"></img>
+        </section>
     </div>
   );
 };

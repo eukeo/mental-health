@@ -36,3 +36,9 @@
     border-radius: 20px;
     margin: auto;
 }
+
+#quote-gallery > img {
+    margin-top: 1%;
+    align-items: center;
+    width: 25%;
+}
