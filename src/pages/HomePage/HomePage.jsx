@@ -10,17 +10,19 @@ export default function HomePage() {
    }, []);
 
     return (
-      <div id="home-page-container">
-        <section id="banner" data-aos="zoom-in">
-          <img src="https://feeljoy.in/blog/wp-content/uploads/2019/09/1-1.png"></img>
-        </section>
-        <section id="importance">
-          <h1 data-aos="fade-left">Mission Statement</h1>
-          <p data-aos="fade-left">Our mission is to help spread awareness on mental health issues growing rapidly across the country.</p>
-          <hr data-aos="fade-in"></hr>
-          <h1 data-aos="fade-left" data-aos-duration="1250">Why is Mental Health Important?</h1>
-          <p data-aos="fade-left" data-aos-duration="1250">Mental health includes our emotional, psychological, and social well-being. It affects how we think, feel, and act. It also helps determine how we handle stress, relate to others, and make healthy choices. Mental health is important at every stage of life, from childhood and adolescence through adulthood.</p>
-        </section>
-      </div> 
+      <>
+        <div id="home-page-container">
+          <section id="banner" data-aos="zoom-in">
+            <img src="https://feeljoy.in/blog/wp-content/uploads/2019/09/1-1.png"></img>
+          </section>
+          <section id="importance">
+            <h1 data-aos="fade-left">Mission Statement</h1>
+            <p data-aos="fade-left">Our mission is to help spread awareness on mental health issues growing rapidly across the country.</p>
+            <hr data-aos="fade-in"></hr>
+            <h1 data-aos="fade-left" data-aos-duration="1250">Why is Mental Health Important?</h1>
+            <p data-aos="fade-left" data-aos-duration="1250">Mental health includes our emotional, psychological, and social well-being. It affects how we think, feel, and act. It also helps determine how we handle stress, relate to others, and make healthy choices. Mental health is important at every stage of life, from childhood and adolescence through adulthood.</p>
+          </section>
+        </div> 
+      </>
   );
 }

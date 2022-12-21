@@ -5,6 +5,7 @@ import HomePage from "../HomePage/HomePage"
 import InformationPage from "../InformationPage/InformationPage"
 import QuotePage from "../QuotePage/QuotePage"
 import HelpPage from "../HelpPage/HelpPage"
+import Footer from '../../components/NavBar/Footer/Footer';
 
 export default function App() {
     return (
@@ -16,6 +17,7 @@ export default function App() {
                 <Route path="/information" element={<InformationPage />} />
                 <Route path="/help" element={<HelpPage />} />
             </Routes>
+            <Footer />
         </>
     )
 }
