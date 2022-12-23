@@ -67,42 +67,42 @@ export default function InformationPage() {
         <div id="information-page-container">
             <h1 data-aos="fade-in">Cases in the United States</h1>
             <div id="box-container" data-aos="fade-in">
-                <div id="health-info-box" data-aos="fade-down" data-aos-duration="1000">
+                <a href="https://www.healthline.com/health/effective-ways-to-fight-anxiety-without-drugs" target="_blank" id="health-info-box" data-aos="fade-down" data-aos-duration="1000">
                     <h1>41%</h1>
                     <h5>Anxiety</h5>
-                </div>
-                <div id="health-info-box" data-aos="fade-down" data-aos-duration="1250">
+                </a>
+                <a href="https://www.healthline.com/health/depression/how-to-fight-depression" target="_blank" id="health-info-box" data-aos="fade-down" data-aos-duration="1250">
                     <h1>30%</h1>
                     <h5>Depression</h5>
-                </div>
-                <div id="health-info-box" data-aos="fade-down" data-aos-duration="1500">
+                </a>
+                <a href="https://www.webmd.com/mental-health/features/beat-loneliness" target="_blank" id="health-info-box" data-aos="fade-down" data-aos-duration="1500">
                     <h1>28%</h1>
                     <h5>Loneliness/Social Isolation</h5>
-                </div>
-                <div id="health-info-box" data-aos="fade-down" data-aos-duration="1750">
+                </a>
+                <a href="https://centerstone.org/our-resources/health-wellness/what-are-mood-swings-and-how-to-manage-them/" target="_blank" id="health-info-box" data-aos="fade-down" data-aos-duration="1750">
                     <h1>26%</h1>
                     <h5>Mood Swings</h5>
-                </div>
-                <div id="health-info-box" data-aos="fade-down" data-aos-duration="2000">
+                </a>
+                <a href="https://www.helpguide.org/articles/grief/coping-with-grief-and-loss.htm" target="_blank" id="health-info-box" data-aos="fade-down" data-aos-duration="2000">
                     <h1>23%</h1>
                     <h5>Phases of Sadness</h5>
-                </div>
-                <div id="health-info-box" data-aos="fade-down" data-aos-duration="2250">
+                </a>
+                <a href="https://www.healthline.com/health/how-to-stop-a-panic-attack" target="_blank" id="health-info-box" data-aos="fade-down" data-aos-duration="2250">
                     <h1>20%</h1>
                     <h5>Panic Attacks</h5>
-                </div>
-                <div id="health-info-box" data-aos="fade-down" data-aos-duration="2500">
+                </a>
+                <a href="https://www.skillsyouneed.com/ps/self-esteem.html" target="_blank" id="health-info-box" data-aos="fade-down" data-aos-duration="2500">
                     <h1>20%</h1>
                     <h5>Struggles with Self-Esteem</h5>
-                </div>
-                <div id="health-info-box" data-aos="fade-down" data-aos-duration="2750">
+                </a>
+                <a href="https://www.medicalnewstoday.com/articles/lethargy#causes" target="_blank" id="health-info-box" data-aos="fade-down" data-aos-duration="2750">
                     <h1>14%</h1>
                     <h5>Phases of Lethargy</h5>
-                </div>
-                <div id="health-info-box" data-aos="fade-down" data-aos-duration="3000">
+                </a>
+                <a href="https://www.nhsinform.scot/healthy-living/mental-wellbeing/fears-and-phobias/ten-ways-to-fight-your-fears" target="_blank" id="health-info-box" data-aos="fade-down" data-aos-duration="3000">
                     <h1>8%</h1>
                     <h5>Phobias</h5>
-                </div>
+                </a>
             </div>
             <div>
                 <img src="https://www.verywellmind.com/thmb/u_YyxyiUz6qeT5AtcsF41O42ngY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/definition-of-mental-illness-4587855-v1-cd7f9f37c61c49099ac8ede282db1e73.png" id="what-is-it" data-aos="fade-up"></img>

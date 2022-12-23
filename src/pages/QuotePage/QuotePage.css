@@ -41,4 +41,15 @@
     margin-top: 1%;
     align-items: center;
     width: 25%;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+#quote-gallery > img:hover {
+   transform: scale(1.05);
+}
+
+#get-quote-btn:hover {
+    background-color: #8378a4;
+    cursor: pointer;
 }

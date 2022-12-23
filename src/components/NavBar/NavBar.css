@@ -16,3 +16,7 @@ nav > ul > a {
     letter-spacing: 1px;
     padding: 0px 50px 0px 50px;
 }
+
+a:hover {
+    color: rgb(121, 209, 199);
+}

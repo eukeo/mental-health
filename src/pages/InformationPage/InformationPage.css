@@ -25,7 +25,10 @@
     width: 10%;
     margin: 2%;
     background-color: rgb(121, 209, 199);
+    text-decoration: none;
+    color: black;
 }
+
 
 #definitions {
     width: 60%;
@@ -82,4 +85,10 @@ td {
 
 tr:nth-child(even) {
     background-color: #b9b1d4;
+}
+
+#health-info-box:hover {
+    background-color: #b9b1d4;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
 }
