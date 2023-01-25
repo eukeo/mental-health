@@ -94,6 +94,26 @@ tr:nth-child(even) {
 
 @media only screen and (max-width: 980px) {
   #health-info-box {
-    width: 15%;
+    width: 25%;
+  }
+}
+
+@media only screen and (max-width: 2984px) {
+  #table-container,
+  #table-container > h1 {
+    margin-top: 3%;
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  #table-container,
+  #table-container > h1 {
+    margin-top: 12%;
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  #information-page-container {
+    width: 98%;
   }
 }
