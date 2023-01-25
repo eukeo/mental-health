@@ -1,55 +1,67 @@
 #quote-page-container {
-    margin-left: 1%;
-    margin-right: 1%;
+  margin-left: 1%;
+  margin-right: 1%;
 }
 
 #content-container {
-    align-items: center;
-    margin-top: 2%;
-    background-image: url("https://afchelps.ca/wp-content/uploads/2020/01/Mental-Health-Homepage-Slider-825x229.png");
-    background-position: center;
-    border: 1px solid rgba(0, 0, 0, 0.088);
-    border-radius: 5px;
+  align-items: center;
+  margin-top: 2%;
+  background-image: url("https://afchelps.ca/wp-content/uploads/2020/01/Mental-Health-Homepage-Slider-825x229.png");
+  background-position: center;
+  border: 1px solid rgba(0, 0, 0, 0.088);
+  border-radius: 5px;
 }
 
 #content-container > img {
-    width: 35%;
+  width: 35%;
 }
 
 #quote-container {
-   text-align: center;
-   width: 45%;
-   margin: auto;
-   margin-top: 2%;
-   margin-bottom: 3%;
-   border-radius: 100px;
-   max-height: 15px;
+  text-align: center;
+  width: 45%;
+  margin: auto;
+  margin-top: 2%;
+  margin-bottom: 3%;
+  border-radius: 100px;
+  max-height: 15px;
 }
 
 #get-quote-btn {
-    color: white;
-    font-size: 18px;
-    background-color: #9f92c8;
-    padding: 10px;
-    padding-left: 15px;
-    padding-right: 15px;
-    border-radius: 20px;
-    margin: auto;
+  color: white;
+  font-size: 18px;
+  background-color: #9f92c8;
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 20px;
+  margin: auto;
 }
 
 #quote-gallery > img {
-    margin-top: 1%;
-    align-items: center;
-    width: 25%;
-    flex-wrap: wrap;
-    flex-direction: column;
+  margin-top: 1%;
+  align-items: center;
+  width: 25%;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
 
 #quote-gallery > img:hover {
-   transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 #get-quote-btn:hover {
-    background-color: #8378a4;
-    cursor: pointer;
+  background-color: #8378a4;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 980px) {
+  #content-container {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  #quote-gallery > img {
+    width: 50%;
+  }
 }
